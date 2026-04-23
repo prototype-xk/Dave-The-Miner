@@ -1,0 +1,150 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/LDtkLoader-1.5.3.1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/doc/LDtkLoader",
+			"paths" : 
+			[
+				"libs/LDtkLoader-1.5.3.1/LICENSE.md",
+				"libs/LDtkLoader-1.5.3.1/README.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"libs/LDtkLoader-1.5.3.1/include/LDtkLoader"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/include/LDtkLoader"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/LDtkLoader-1.5.3.1/lib/LDtkLoader-d.lib"
+			],
+			"targetId" : "LDtkLoader::@cbf1dd74f55ccae7b031",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LDtkLoader",
+			"exportName" : "LDtkLoaderTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "LDtkLoader::@cbf1dd74f55ccae7b031",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"libs/LDtkLoader-1.5.3.1/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LDtkLoader",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/LDtkLoaderConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LDtkLoader",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/LDtkLoaderConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/LDtkLoader-1.5.3.1",
+		"source" : "libs/LDtkLoader-1.5.3.1"
+	}
+}
