@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\
+cmake_ninja_workdir = C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\
 # =============================================================================
 # Object build statements for EXECUTABLE target Dave_The_Miners
 
@@ -49,57 +49,64 @@ cmake_ninja_workdir = C$:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Deb
 
 build cmake_object_order_depends_target_Dave_The_Miners: phony || cmake_object_order_depends_target_LDtkLoader
 
-build CMakeFiles\Dave_The_Miners.dir\src\Core\MStream.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Core\MStream.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Core\MStream.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Core\MStream.cpp || cmake_object_order_depends_target_Dave_The_Miners
+  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\Core\MString.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Core\MString.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Core\MString.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Core\MString.cpp || cmake_object_order_depends_target_Dave_The_Miners
+  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\Core\MVector.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Core\MVector.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Core\MVector.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Core\MVector.cpp || cmake_object_order_depends_target_Dave_The_Miners
+  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\Engine\Scene.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Engine\Scene.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Engine\Scene.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Engine\Scene.cpp || cmake_object_order_depends_target_Dave_The_Miners
+  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Engine
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\Engine\SceneManager.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Engine\SceneManager.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Engine\SceneManager.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Engine\SceneManager.cpp || cmake_object_order_depends_target_Dave_The_Miners
+  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Engine
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\Game\player.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Game\player.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Game\player.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Game\player.cpp || cmake_object_order_depends_target_Dave_The_Miners
+  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Game
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\main.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\main.cpp || cmake_object_order_depends_target_Dave_The_Miners
+  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
@@ -117,9 +124,9 @@ build Dave_The_Miners.exe: CXX_EXECUTABLE_LINKER__Dave_The_Miners_Debug CMakeFil
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = sfml-graphics.lib  sfml-window.lib  sfml-system.lib  libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  LINK_PATH = -LIBPATH:C:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\lib
+  LINK_PATH = -LIBPATH:C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\lib
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-audio-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-audio-d-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-graphics-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-graphics-d-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-network-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-network-d-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-system-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-system-d-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-window-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/SFML-3.1.0/bin/sfml-window-d-3.dll C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_FILE = Dave_The_Miners.exe
@@ -131,7 +138,7 @@ build Dave_The_Miners.exe: CXX_EXECUTABLE_LINKER__Dave_The_Miners_Debug CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -142,7 +149,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ebaloche\Documents\GitHub\Test -BC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners -BC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -160,7 +167,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -172,7 +179,7 @@ build install: phony CMakeFiles\install.util
 # Utility command for install/local
 
 build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -181,7 +188,7 @@ build install\local: phony CMakeFiles\install\local.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ebaloche/Documents/GitHub/Test/CMakeLists.txt
+# C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -193,127 +200,127 @@ build install\local: phony CMakeFiles\install\local.util
 
 build cmake_object_order_depends_target_LDtkLoader: phony || .
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\DataTypes.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\DataTypes.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\DataTypes.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\DataTypes.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Entity.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Entity.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Entity.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Entity.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\EntityDef.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\EntityDef.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\EntityDef.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\EntityDef.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Enum.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Enum.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Enum.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Enum.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\FieldsContainer.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\FieldsContainer.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\FieldsContainer.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\FieldsContainer.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Layer.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Layer.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Layer.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Layer.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\LayerDef.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\LayerDef.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\LayerDef.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\LayerDef.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Level.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Level.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Level.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Level.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Project.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Project.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Project.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Project.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\TagsContainer.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\TagsContainer.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\TagsContainer.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\TagsContainer.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Tile.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Tile.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Tile.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Tile.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Tileset.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Tileset.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Tileset.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Tileset.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Utils.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Utils.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\Utils.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Utils.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
   TARGET_PDB = libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.pdb
 
-build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\World.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\World.cpp || cmake_object_order_depends_target_LDtkLoader
+build libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src\World.cpp.obj: CXX_COMPILER__LDtkLoader_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\World.cpp || cmake_object_order_depends_target_LDtkLoader
   DEFINES = -D_CRT_SECURE_NO_WARNINGS
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir
   OBJECT_FILE_DIR = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\src
   TARGET_COMPILE_PDB = libs\LDtkLoader-1.5.3.1\CMakeFiles\LDtkLoader.dir\LDtkLoader.pdb
@@ -342,7 +349,7 @@ build libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib: CXX_STATIC_LIBRARY_LINKER__L
 # Utility command for edit_cache
 
 build libs\LDtkLoader-1.5.3.1\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -353,7 +360,7 @@ build libs\LDtkLoader-1.5.3.1\edit_cache: phony libs\LDtkLoader-1.5.3.1\CMakeFil
 # Utility command for rebuild_cache
 
 build libs\LDtkLoader-1.5.3.1\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ebaloche\Documents\GitHub\Test -BC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners -BC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -371,7 +378,7 @@ build libs\LDtkLoader-1.5.3.1\list_install_components: phony
 # Utility command for install
 
 build libs\LDtkLoader-1.5.3.1\CMakeFiles\install.util: CUSTOM_COMMAND libs\LDtkLoader-1.5.3.1\all
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -383,7 +390,7 @@ build libs\LDtkLoader-1.5.3.1\install: phony libs\LDtkLoader-1.5.3.1\CMakeFiles\
 # Utility command for install/local
 
 build libs\LDtkLoader-1.5.3.1\CMakeFiles\install\local.util: CUSTOM_COMMAND libs\LDtkLoader-1.5.3.1\all
-  COMMAND = C:\windows\system32\cmd.exe /C "cd /D C:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1 && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -405,14 +412,14 @@ build LDtkLoader-d.lib: phony libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug
+# Folder: C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug
 
 build all: phony Dave_The_Miners.exe libs\LDtkLoader-1.5.3.1\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1
+# Folder: C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1
 
 build libs\LDtkLoader-1.5.3.1\all: phony libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib
 
@@ -423,14 +430,14 @@ build libs\LDtkLoader-1.5.3.1\all: phony libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMinorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\ebaloche\Documents\GitHub\Test\CMakeLists.txt C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\CMakeLists.txt C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\cmake\LDtkLoaderConfig.cmake.in C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Version.hpp.in CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMinorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\CMakeLists.txt C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\CMakeLists.txt C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\cmake\LDtkLoaderConfig.cmake.in C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Version.hpp.in CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMinorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\ebaloche\Documents\GitHub\Test\CMakeLists.txt C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\CMakeLists.txt C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\cmake\LDtkLoaderConfig.cmake.in C$:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\src\Version.hpp.in CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake: phony
+build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMinorVersion.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\CMakeLists.txt C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\CMakeLists.txt C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\cmake\LDtkLoaderConfig.cmake.in C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\src\Version.hpp.in CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake: phony
 
 
 #############################################

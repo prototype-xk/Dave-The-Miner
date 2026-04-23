@@ -1,105 +1,136 @@
 #include <SFML/Graphics.hpp>
 #include <LDtkLoader/Project.hpp>
 #include <iostream>
-#include <optional>
 #include <filesystem>
-#include <fstream>
 #include <vector>
+#include <fstream>
 
 namespace fs = std::filesystem;
 
-int main() {
+struct LayerData {
+    std::string name;
+    sf::VertexArray vertices;
+};
+
+int main(int argc, char* argv[]) {
+    std::cout << "--- DAVE THE MINER : VERSION FINALE STABLE ---" << std::endl;
+
+    // 1. CONFIGURATION DES CHEMINS
+    fs::path asset_dir = fs::path(ASSETS_PATH);
+    fs::path ldtk_path = (asset_dir / "Dave.ldtk").make_preferred();
+    fs::path texture_path = (asset_dir / "tileset.png").make_preferred();
+
+    // 2. CHARGEMENT LDTK
     ldtk::Project ldtk_project;
-
-    // 1. Définition des chemins
-    fs::path exe_path = fs::current_path();
-    fs::path ldtk_path = exe_path / "assets" / "level.ldtk";
-    fs::path texture_path = exe_path / "assets" / "tileset.png";
-
-    // --- CHARGEMENT DU FICHIER LDTK ---
     try {
+        if (!fs::exists(ldtk_path)) throw std::runtime_error("Fichier .ldtk introuvable.");
         ldtk_project.loadFromFile(ldtk_path.string());
-        std::cout << "1. LDtk : Fichier charge avec succes !" << std::endl;
+        std::cout << "[OK] Projet LDtk charge." << std::endl;
     }
     catch (const std::exception& ex) {
-        std::cerr << "Erreur LDtk : " << ex.what() << std::endl;
+        std::cerr << "[ERREUR FATALE] " << ex.what() << std::endl;
         return 1;
     }
 
-    // --- EXTRACTION DES DONNEES ---
-    const auto& world = ldtk_project.getWorld();
-    const auto& level = world.getLevel("Level");
-    const auto& layer = level.getLayer("Ground");
-    const auto& tiles_vector = layer.allTiles();
-
-    // --- CHARGEMENT DE LA TEXTURE (MÉTHODE MÉMOIRE FORCEE) ---
+    // 3. CHARGEMENT TEXTURE (METHODE BINAIRE ANTI-CRASH)
     sf::Texture tileset_texture;
-
-    std::ifstream file(texture_path, std::ios::binary | std::ios::ate);
-    if (!file.is_open()) {
-        std::cerr << "Erreur : Impossible d'ouvrir le fichier : " << texture_path.string() << std::endl;
-        return 1;
-    }
-
-    std::streamsize size = file.tellg();
-    file.seekg(0, std::ios::beg);
-    std::vector<char> buffer(size);
-
-    if (file.read(buffer.data(), size)) {
-        if (!tileset_texture.loadFromMemory(buffer.data(), size)) {
-            std::cerr << "Erreur SFML : Le fichier est lu mais le format image est invalide." << std::endl;
+    std::ifstream file(texture_path, std::ios::binary);
+    if (file) {
+        std::vector<char> buffer((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+        if (!tileset_texture.loadFromMemory(buffer.data(), buffer.size())) {
+            std::cerr << "[ERREUR] SFML n'a pas pu decoder l'image." << std::endl;
             return 1;
         }
+        tileset_texture.setSmooth(false); // Garde le cote Pixel Art net
+        std::cout << "[OK] Texture chargee via buffer memoire." << std::endl;
     }
-    std::cout << "2. SFML : Texture chargee de la memoire avec succes !" << std::endl;
-
-    // --- PREPARATION DU RENDU (TRIANGLES) ---
-    sf::VertexArray tilemap(sf::PrimitiveType::Triangles);
-    tilemap.resize(tiles_vector.size() * 6);
-
-    int i = 0;
-    for (const auto& tile : tiles_vector) {
-        auto vertices = tile.getVertices();
-
-        // Positions des 2 triangles formant une tuile
-        tilemap[i * 6 + 0].position = sf::Vector2f(vertices[0].pos.x, vertices[0].pos.y);
-        tilemap[i * 6 + 1].position = sf::Vector2f(vertices[1].pos.x, vertices[1].pos.y);
-        tilemap[i * 6 + 2].position = sf::Vector2f(vertices[2].pos.x, vertices[2].pos.y);
-
-        tilemap[i * 6 + 3].position = sf::Vector2f(vertices[2].pos.x, vertices[2].pos.y);
-        tilemap[i * 6 + 4].position = sf::Vector2f(vertices[3].pos.x, vertices[3].pos.y);
-        tilemap[i * 6 + 5].position = sf::Vector2f(vertices[0].pos.x, vertices[0].pos.y);
-
-        // Coordonnées de texture
-        tilemap[i * 6 + 0].texCoords = sf::Vector2f((float)vertices[0].tex.x, (float)vertices[0].tex.y);
-        tilemap[i * 6 + 1].texCoords = sf::Vector2f((float)vertices[1].tex.x, (float)vertices[1].tex.y);
-        tilemap[i * 6 + 2].texCoords = sf::Vector2f((float)vertices[2].tex.x, (float)vertices[2].tex.y);
-
-        tilemap[i * 6 + 3].texCoords = sf::Vector2f((float)vertices[2].tex.x, (float)vertices[2].tex.y);
-        tilemap[i * 6 + 4].texCoords = sf::Vector2f((float)vertices[3].tex.x, (float)vertices[3].tex.y);
-        tilemap[i * 6 + 5].texCoords = sf::Vector2f((float)vertices[0].tex.x, (float)vertices[0].tex.y);
-
-        i++;
+    else {
+        std::cerr << "[ERREUR] Impossible d'ouvrir tileset.png" << std::endl;
+        return 1;
     }
 
-    // --- FENETRE ---
-    sf::RenderWindow window(sf::VideoMode({ (unsigned int)level.size.x * 4, (unsigned int)level.size.y * 4 }), "Dave The Miners - Map OK");
-    window.setFramerateLimit(60);
+    // 4. SELECTION DU NIVEAU
+    const auto& world = ldtk_project.getWorld();
+    const ldtk::Level* level_ptr = nullptr;
+    try {
+        level_ptr = &world.getLevel("Level");
+    }
+    catch (...) {
+        std::cout << "[WARN] 'Level' non trouve. Niveaux dispos : ";
+        for (auto& l : world.allLevels()) std::cout << l.name << " ";
+        std::cout << "\nUtilisation du premier niveau par defaut." << std::endl;
+        level_ptr = &world.allLevels()[0];
+    }
+    const auto& level = *level_ptr;
 
-    while (window.isOpen()) {
-        while (const std::optional event = window.pollEvent()) {
-            if (event->is<sf::Event::Closed>()) {
-                window.close();
+    // 5. CONSTRUCTION DES CALQUES ET SPAWN
+    std::vector<LayerData> layers_to_render;
+    sf::Vector2f player_spawn(0.f, 0.f);
+
+    for (const auto& layer : level.allLayers()) {
+        if (layer.getType() == ldtk::LayerType::Entities) {
+            for (const auto& entity : layer.allEntities()) {
+                if (entity.getName() == "Player_Spawn") {
+                    player_spawn = { (float)entity.getPosition().x, (float)entity.getPosition().y };
+                }
             }
         }
 
-        window.clear(sf::Color(50, 50, 50));
+        if (layer.getType() == ldtk::LayerType::Tiles || layer.getType() == ldtk::LayerType::AutoLayer) {
+            sf::VertexArray va(sf::PrimitiveType::Triangles);
+            const auto& tiles = layer.allTiles();
+            va.resize(tiles.size() * 6);
+
+            int i = 0;
+            for (const auto& tile : tiles) {
+                auto v = tile.getVertices();
+                int idx = i * 6;
+                va[idx + 0] = { {v[0].pos.x, v[0].pos.y}, sf::Color::White, {(float)v[0].tex.x, (float)v[0].tex.y} };
+                va[idx + 1] = { {v[1].pos.x, v[1].pos.y}, sf::Color::White, {(float)v[1].tex.x, (float)v[1].tex.y} };
+                va[idx + 2] = { {v[2].pos.x, v[2].pos.y}, sf::Color::White, {(float)v[2].tex.x, (float)v[2].tex.y} };
+                va[idx + 3] = { {v[2].pos.x, v[2].pos.y}, sf::Color::White, {(float)v[2].tex.x, (float)v[2].tex.y} };
+                va[idx + 4] = { {v[3].pos.x, v[3].pos.y}, sf::Color::White, {(float)v[3].tex.x, (float)v[3].tex.y} };
+                va[idx + 5] = { {v[0].pos.x, v[0].pos.y}, sf::Color::White, {(float)v[0].tex.x, (float)v[0].tex.y} };
+                i++;
+            }
+            layers_to_render.push_back({ layer.getName(), va });
+        }
+    }
+
+    // 6. FENETRE ET VUE (POUR LA TAILLE)
+    sf::RenderWindow window(sf::VideoMode({ 1280, 720 }), "Dave The Miner");
+    window.setFramerateLimit(60);
+
+    // La vue fait la taille du niveau pour un zoom parfait sans deformer
+    sf::View gameView;
+    gameView.setSize({ (float)level.size.x, (float)level.size.y });
+    gameView.setCenter({ (float)level.size.x / 2.f, (float)level.size.y / 2.f });
+
+    // Dave (le rectangle rouge)
+    sf::RectangleShape dave(sf::Vector2f(12.f, 12.f)); // Taille un peu plus petite que la tuile
+    dave.setFillColor(sf::Color::Red);
+    dave.setOrigin({ 6.f, 6.f });
+    dave.setPosition(player_spawn);
+
+    while (window.isOpen()) {
+        while (const std::optional event = window.pollEvent()) {
+            if (event->is<sf::Event::Closed>()) window.close();
+        }
+
+        window.clear(sf::Color(30, 30, 30));
+
+        // On applique la vue avant de dessiner
+        window.setView(gameView);
 
         sf::RenderStates states;
-        states.transform.scale({ 4.f, 4.f }); // Zoom x4
         states.texture = &tileset_texture;
 
-        window.draw(tilemap, states);
+        for (const auto& l : layers_to_render) {
+            if (l.name != "Colide") window.draw(l.vertices, states);
+        }
+
+        window.draw(dave);
+
         window.display();
     }
 

@@ -50,14 +50,14 @@ unset(_cmake_expected_targets)
 add_library(LDtkLoader::LDtkLoader STATIC IMPORTED)
 
 set_target_properties(LDtkLoader::LDtkLoader PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/ebaloche/Documents/GitHub/Test/libs/LDtkLoader-1.5.3.1/include;C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/LDtkLoader-1.5.3.1/include;C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/include"
 )
 
 # Import target "LDtkLoader::LDtkLoader" for configuration "Debug"
 set_property(TARGET LDtkLoader::LDtkLoader APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(LDtkLoader::LDtkLoader PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/lib/LDtkLoader-d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/lib/LDtkLoader-d.lib"
   )
 
 # This file does not depend on other imported targets which have

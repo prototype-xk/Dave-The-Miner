@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/ebaloche/Documents/GitHub/Test/libs/LDtkLoader-1.5.3.1
+# Install script for directory: C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/LDtkLoader-1.5.3.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/ebaloche/Documents/GitHub/Test/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,28 +34,28 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/LDtkLoader" TYPE FILE FILES
-    "C:/Users/ebaloche/Documents/GitHub/Test/libs/LDtkLoader-1.5.3.1/LICENSE.md"
-    "C:/Users/ebaloche/Documents/GitHub/Test/libs/LDtkLoader-1.5.3.1/README.md"
+    "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/LDtkLoader-1.5.3.1/LICENSE.md"
+    "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/LDtkLoader-1.5.3.1/README.md"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/ebaloche/Documents/GitHub/Test/libs/LDtkLoader-1.5.3.1/include/LDtkLoader")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/libs/LDtkLoader-1.5.3.1/include/LDtkLoader")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/include/LDtkLoader")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/include/LDtkLoader")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/lib/LDtkLoader-d.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/lib/LDtkLoader-d.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader/LDtkLoaderTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader/LDtkLoaderTargets.cmake"
-         "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets.cmake")
+         "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader/LDtkLoaderTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -68,23 +68,23 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/LDtkLoaderConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/LDtkLoaderConfig.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/LDtkLoaderConfigVersion.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/LDtkLoader" TYPE FILE FILES "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/LDtkLoaderConfigVersion.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/ebaloche/Documents/GitHub/Test/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/install_local_manifest.txt"
+  file(WRITE "C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/out/build/x64-Debug/libs/LDtkLoader-1.5.3.1/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
