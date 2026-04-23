@@ -1,17 +1,24 @@
 @echo off
 set BUILD_DIR=out\build\x64-Debug
+set SLN_FILE=%BUILD_DIR%\Dave_The_Miners.sln
 set EXE_NAME=Dave_The_Miners.exe
 
 echo --- DAVE THE MINER : BUILD ^& RUN ---
 
-:: 1. Configuration si le dossier build n'existe pas
-if not exist "%BUILD_DIR%" (
-    echo [INFO] Le dossier de build n'existe pas. Configuration de CMake...
+:: 1. Configuration si le fichier .sln n'existe pas (dossier manquant ou config CMake echouee precedemment)
+if not exist "%SLN_FILE%" (
+    echo [INFO] Fichier projet introuvable. Configuration de CMake...
     cmake -B "%BUILD_DIR%" -S .
     if %ERRORLEVEL% NEQ 0 (
         echo [ERREUR] La configuration de CMake a echoue.
+        echo [CONSEIL] Verifiez que les .lib de SFML sont presents dans libs/SFML-3.1.0/lib/
         pause
         exit /b %ERRORLEVEL%
+    )
+    if not exist "%SLN_FILE%" (
+        echo [ERREUR] Le fichier projet .sln n'a pas ete genere malgre la configuration.
+        pause
+        exit /b 1
     )
 )
 

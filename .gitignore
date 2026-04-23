@@ -29,6 +29,9 @@ build.ninja
 *.exp
 *.ilk
 
+# Exception : les .lib dans libs/ doivent etre trackes (SFML, etc.)
+!libs/**/*.lib
+
 # --- Système & Logs ---
 .DS_Store
 Thumbs.db
