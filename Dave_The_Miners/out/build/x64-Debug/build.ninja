@@ -49,34 +49,16 @@ cmake_ninja_workdir = C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_M
 
 build cmake_object_order_depends_target_Dave_The_Miners: phony || cmake_object_order_depends_target_LDtkLoader
 
-build CMakeFiles\Dave_The_Miners.dir\src\Core\MStream.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Core\MStream.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\main.cpp || cmake_object_order_depends_target_Dave_The_Miners
   DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
   INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
-  OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
+  OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\Core\MString.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Core\MString.cpp || cmake_object_order_depends_target_Dave_The_Miners
-  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
-  OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
-  OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
-  TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
-  TARGET_PDB = Dave_The_Miners.pdb
-
-build CMakeFiles\Dave_The_Miners.dir\src\Core\MVector.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Core\MVector.cpp || cmake_object_order_depends_target_Dave_The_Miners
-  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
-  OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
-  OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
-  TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
-  TARGET_PDB = Dave_The_Miners.pdb
-
-build CMakeFiles\Dave_The_Miners.dir\src\Engine\Scene.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Engine\Scene.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Engine\Game.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Engine\Game.cpp || cmake_object_order_depends_target_Dave_The_Miners
   DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
   INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
@@ -85,12 +67,12 @@ build CMakeFiles\Dave_The_Miners.dir\src\Engine\Scene.cpp.obj: CXX_COMPILER__Dav
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\Engine\SceneManager.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Engine\SceneManager.cpp || cmake_object_order_depends_target_Dave_The_Miners
+build CMakeFiles\Dave_The_Miners.dir\src\Game\World.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\Game\World.cpp || cmake_object_order_depends_target_Dave_The_Miners
   DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
   INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
-  OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Engine
+  OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Game
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
@@ -103,15 +85,6 @@ build CMakeFiles\Dave_The_Miners.dir\src\Game\player.cpp.obj: CXX_COMPILER__Dave
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
   TARGET_PDB = Dave_The_Miners.pdb
 
-build CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src\main.cpp || cmake_object_order_depends_target_Dave_The_Miners
-  DEFINES = -DASSETS_PATH=\"C:/Users/Proto/Documents/GitHub/Dave-The-Miner/Dave_The_Miners/assets/\"
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\SFML-3.1.0\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\nlohmann_json\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\src -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\libs\LDtkLoader-1.5.3.1\include -IC:\Users\Proto\Documents\GitHub\Dave-The-Miner\Dave_The_Miners\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
-  OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
-  OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
-  TARGET_PDB = Dave_The_Miners.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Dave_The_Miners
@@ -120,7 +93,7 @@ build CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj: CXX_COMPILER__Dave_The_Mi
 #############################################
 # Link the executable Dave_The_Miners.exe
 
-build Dave_The_Miners.exe: CXX_EXECUTABLE_LINKER__Dave_The_Miners_Debug CMakeFiles\Dave_The_Miners.dir\src\Core\MStream.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Core\MString.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Core\MVector.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Engine\Scene.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Engine\SceneManager.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Game\player.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj | libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib || libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib
+build Dave_The_Miners.exe: CXX_EXECUTABLE_LINKER__Dave_The_Miners_Debug CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Engine\Game.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Game\World.cpp.obj CMakeFiles\Dave_The_Miners.dir\src\Game\player.cpp.obj | libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib || libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = sfml-graphics.lib  sfml-window.lib  sfml-system.lib  libs\LDtkLoader-1.5.3.1\lib\LDtkLoader-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

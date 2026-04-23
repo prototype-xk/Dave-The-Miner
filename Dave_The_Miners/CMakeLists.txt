@@ -18,8 +18,18 @@ include_directories("${JSON_PATH}/include")
 add_definitions(-DASSETS_PATH="${CMAKE_CURRENT_SOURCE_DIR}/assets/")
 
 # 3. Fichiers sources
-file(GLOB_RECURSE HEADERS "include/*.hpp")
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+set(SOURCES 
+    src/main.cpp
+    src/Engine/Game.cpp
+    src/Game/World.cpp
+    src/Game/player.cpp
+)
+
+set(HEADERS
+    include/Engine/Game.hpp
+    include/Game/World.hpp
+    include/Game/player.hpp
+)
 
 # 4. L'exécutable
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
