@@ -1,1 +1,48 @@
-/Dave_The_Miners/.vs
+# --- IDE & Compilateurs ---
+.vscode/
+.vs/
+out/
+build/
+bin/
+obj/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+cmake_install.cmake
+install/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_deps/
+
+# --- Binaires et Librairies ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.pdb
+*.exp
+*.ilk
+
+# --- Fichiers système et logs ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# --- Dossiers spécifiques à ne PAS ignorer ---
+# On veut garder les sources et les assets
+!src/
+!include/
+!assets/
+!libs/
+
+# NOTE : Si tes dossiers dans /libs sont très lourds (comme SFML), 
+# certains préfèrent les ignorer et utiliser un gestionnaire de paquets (Vcpkg).
+# Mais pour ton projet actuel, il est plus simple de les garder.
