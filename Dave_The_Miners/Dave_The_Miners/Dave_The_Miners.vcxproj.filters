@@ -54,9 +54,6 @@
     <ClCompile Include="Scene\SceneWin.cpp">
       <Filter>Fichiers sources\Scene</Filter>
     </ClCompile>
-    <ClCompile Include="Engine\AssetManager.cpp">
-      <Filter>Fichiers sources\Engine</Filter>
-    </ClCompile>
     <ClCompile Include="Engine\Scene.cpp">
       <Filter>Fichiers sources\Engine</Filter>
     </ClCompile>

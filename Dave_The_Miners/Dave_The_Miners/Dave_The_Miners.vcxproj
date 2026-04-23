@@ -134,7 +134,6 @@
     <ClCompile Include="Core\MStream.cpp" />
     <ClCompile Include="Core\MString.cpp" />
     <ClCompile Include="Core\MVector.cpp" />
-    <ClCompile Include="Engine\AssetManager.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="Engine\SceneManager.cpp" />
     <ClCompile Include="main.cpp" />
