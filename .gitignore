@@ -6,9 +6,8 @@ build/
 bin/
 obj/
 *.sln
-*.vcxproj
-*.vcxproj.user
-*.vcxproj.filters
+*.vcxproj*
+*.user
 
 # --- CMake ---
 CMakeCache.txt
@@ -16,9 +15,9 @@ CMakeFiles/
 CMakeSettings.json
 cmake_install.cmake
 install/
-CPackConfig.cmake
-CPackSourceConfig.cmake
 _deps/
+build.ninja
+.ninja_log
 
 # --- Binaires et Librairies ---
 *.exe
@@ -30,19 +29,16 @@ _deps/
 *.exp
 *.ilk
 
-# --- Fichiers système et logs ---
+# --- Système & Logs ---
 .DS_Store
 Thumbs.db
 *.log
 *.tmp
 
-# --- Dossiers spécifiques à ne PAS ignorer ---
-# On veut garder les sources et les assets
+# --- Dossiers précieux ---
+# On ignore tout par défaut si on veut être strict, 
+# mais ton approche inclusive est plus simple pour débuter :
 !src/
 !include/
 !assets/
 !libs/
-
-# NOTE : Si tes dossiers dans /libs sont très lourds (comme SFML), 
-# certains préfèrent les ignorer et utiliser un gestionnaire de paquets (Vcpkg).
-# Mais pour ton projet actuel, il est plus simple de les garder.
