@@ -29,7 +29,6 @@ public:
     bool isOneWay(sf::Vector2f pos) const;
     int getGridSize() const { return m_gridSize; }
     const std::vector<sf::Vector2f>& getCheckpoints() const { return m_checkpoints; }
-
 private:
     ldtk::Project m_project;
     sf::Texture m_tilesetTexture;

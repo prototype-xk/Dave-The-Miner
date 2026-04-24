@@ -20,6 +20,7 @@ private:
     sf::View m_gameView;
     World m_world;
     Player m_player;
+    sf::Clock m_clock;
 };
 
 #endif // GAME_HPP
