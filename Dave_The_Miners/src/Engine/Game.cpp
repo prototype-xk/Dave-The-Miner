@@ -10,7 +10,9 @@ Game::Game() : m_window(sf::VideoMode({ 1280u, 720u }), "Dave The Miner") {
 
 bool Game::init() {
     std::cout << "--- DAVE THE MINER : INITIALISATION ---" << std::endl;
-    std::filesystem::path assetDir = std::filesystem::path(ASSETS_PATH);
+
+    // Chemin relatif a l'executable : fonctionne sur tous les PC
+    std::filesystem::path assetDir = std::filesystem::current_path() / "assets";
 
     if (!m_world.load(assetDir)) {
         return false;
@@ -47,12 +49,12 @@ void Game::processEvents() {
 
 void Game::update() {
     float dt = m_clock.restart().asSeconds();
-    // Plafond de sécurité : évite un gros saut si la fenêtre était en pause
+    // Plafond de securite : evite un gros saut si la fenetre etait en pause
     if (dt > 0.05f) dt = 0.05f;
 
     m_player.update(m_world, dt);
 
-    // Caméra qui suit le joueur avec clamping aux bords du niveau
+    // Camera qui suit le joueur avec clamping aux bords du niveau
     sf::Vector2f playerPos = m_player.getPosition();
     sf::Vector2f viewSize = m_gameView.getSize();
     sf::Vector2i levelSize = m_world.getLevelSize();
